@@ -101,7 +101,7 @@ class Bd {
             array.push(despesasFiltradas)
             let valor = 0
             for(let i = 0; i < despesasFiltradas.length; i++) {
-                valor += parseInt(despesasFiltradas[i].valor)
+                valor += parseFloat(despesasFiltradas[i].valor)
             }
             array.push(valor)
 
